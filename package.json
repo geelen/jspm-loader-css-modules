@@ -1,0 +1,27 @@
+{
+  "name": "jspm-loader-css-modules",
+  "version": "0.0.1",
+  "description": "A CSS Modules loader for JSPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geelen/jspm-loader-css-modules.git"
+  },
+  "keywords": [
+    "jspm",
+    "css-modules",
+    "loader"
+  ],
+  "author": "Glen Maddern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geelen/jspm-loader-css-modules/issues"
+  },
+  "homepage": "https://github.com/geelen/jspm-loader-css-modules",
+  "dependencies": {
+    "jspm-loader-css": "0.0.3"
+  }
+}
