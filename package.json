@@ -1,6 +1,6 @@
 {
   "name": "jspm-loader-css-modules",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "format": "es6",
   "description": "A CSS Modules loader for JSPM",
   "main": "index.js",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/geelen/jspm-loader-css-modules",
   "dependencies": {
-    "jspm-loader-css": "^0.0.4"
+    "jspm-loader-css": "^0.0.5"
   }
 }
