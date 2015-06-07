@@ -4,4 +4,4 @@ export default new CSSLoader([
   Core.localByDefault,
   Core.extractImports,
   Core.scope
-])
+], __moduleName)
