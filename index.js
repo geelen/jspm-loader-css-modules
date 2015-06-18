@@ -1,7 +1,8 @@
-import { CSSLoader, Core } from 'jspm-loader-css'
+import { CSSLoader, Plugins } from 'jspm-loader-css'
 
 export default new CSSLoader([
-  Core.localByDefault,
-  Core.extractImports,
-  Core.scope
+  Plugins.localByDefault,
+  Plugins.extractImports,
+  Plugins.scope,
+  Plugins.autoprefixer()
 ], __moduleName)
