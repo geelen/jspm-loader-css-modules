@@ -13,7 +13,7 @@ Write some CSS Modules:
 ```css
 /* component.css */
 .myComponent {
-  extends: redBackground from "./backgrounds.css";
+  composes: redBackground from "./backgrounds.css";
   color: white;
 }
 ```
