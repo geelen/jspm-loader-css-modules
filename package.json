@@ -1,6 +1,6 @@
 {
   "name": "jspm-loader-css-modules",
-  "version": "1.0.0-beta1",
+  "version": "1.0.1-beta1",
   "format": "es6",
   "description": "A CSS Modules loader for JSPM",
   "main": "index.js",
