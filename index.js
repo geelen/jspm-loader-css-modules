@@ -1,6 +1,7 @@
 import { CSSLoader, Plugins } from 'jspm-loader-css'
 
 const loader =  new CSSLoader([
+  Plugins.values,
   Plugins.localByDefault,
   Plugins.extractImports,
   Plugins.scope,
