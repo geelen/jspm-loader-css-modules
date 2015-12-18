@@ -8,7 +8,7 @@ const loader =  new CSSLoader([
   Plugins.autoprefixer()
 ], __moduleName)
 
-const { fetch } = loader
+const { fetch, bundle } = loader
 
 export default loader
-export { fetch }
+export { fetch, bundle }
